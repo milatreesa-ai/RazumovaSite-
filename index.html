@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Алины Валерьевны</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .highlight { 
+            font-weight: bold; color: rgb(10, 102, 108); }
+            .colored-block { 
+                background-color: #afe8f5; padding: 10px; }
+        .header, .footer {
+            background-color: #062629;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+        }
+        .sidebar, .right-sidebar {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        .content {
+            flex: 2;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .right-sidebar {
+            background-color: #f9f9f9;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">ПОМОГИТЕ КАК НАЧАТЬ ПИСАТЬ ДИПЛОМ</div>
+    <div class="nav">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Фотографии</a>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Меню</h3>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Фотографии</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Самый крутой сайт на свете</h1>
+            <h2>Кратко про Алину Разумову</h2>
+            <p>Интересные факты <span class="highlight">о Алине</span>.</p>
+            <ol>
+                <li>Живу в Кронштадте</li>
+                <li>Играю в компьютерные игры</li>
+                <li>Учу английский язык</li>
+            </ol>    
+            <p class="colored-block">Ищу работу. Писать в tg:@linarazumss</p>
+        </div>
+        <div class="right-sidebar">
+            <h3>Новости</h3>
+            <p>Здесь будет что-то интересное.</p>
+        </div>
+    </div>
+    <div class="footer">Приятно познакомиться</div>
+</body>
+</html>
